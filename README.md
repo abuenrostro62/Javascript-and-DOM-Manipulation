@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+### Level 1: Automatic Table and Date Search (Required)
 
-You can use the [editor on GitHub](https://github.com/abuenrostro62/Javascript-Challenge/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Create a basic HTML web page or use the index.html file provided (we recommend building your own custom page!).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
 
-### Markdown
+Make sure you have a column for 
+* date/time, 
+* city, 
+* state,
+* country, 
+* shape, and comment at the very least.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
 
-```markdown
-Syntax highlighted code block
+### Level 2: Multiple Search Categories (Optional)
+Complete all of Level 1 criteria.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+Using multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
 
-1. Numbered
-2. List
+* date/time
+* city
+* state
+* country
+* shape
 
-**Bold** and _Italic_ and `Code` text
+#### Dataset
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abuenrostro62/Javascript-Challenge/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+UFO Sightings Data
